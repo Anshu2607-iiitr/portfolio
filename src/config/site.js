@@ -6,7 +6,7 @@
 
 export const site = {
   referenceWebsite: "https://touquirakhtar.com/", // design inspiration only
-  websiteUrl: "https://anshu2607-iiitr.github.io/portfolio/", // used for canonical/OG tags
+  websiteUrl: "", // ← paste your Netlify URL here once live (used for canonical/OG tags)
 
   identity: {
     fullName: "Anshu Kumar",
