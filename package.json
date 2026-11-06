@@ -1,0 +1,25 @@
+{
+  "name": "anshu-portfolio",
+  "version": "1.0.0",
+  "description": "Personal portfolio — React 19 + Framer Motion + esbuild",
+  "scripts": {
+    "dev": "node scripts/build.mjs --dev",
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/build.mjs --check",
+    "preview": "npx --yes serve dist"
+  },
+  "dependencies": {
+    "@fontsource/anton": "^5.3.0",
+    "@fontsource/caveat": "^5.3.0",
+    "@fontsource/manrope": "^5.3.0",
+    "framer-motion": "^12.43.0",
+    "lucide-react": "^1.70.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2"
+  },
+  "private": true,
+  "type": "module"
+}
